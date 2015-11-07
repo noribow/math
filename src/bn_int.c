@@ -47,7 +47,11 @@ bn_int_t * bn_int_alloc(void)
   return p;
 }
 
-void bn_int_clear(bn_int_t **);
+void bn_int_clear(bn_int_t *p)
+{
+
+}
+
 int bn_int_length(bn_int_t *);
 int bn_int_set_ui(bn_int_t **, const unsigned int);
 int bn_int_set_si(bn_int_t **, const signed int);
